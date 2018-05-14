@@ -10,6 +10,15 @@ theme:
     name: material
     feature:
         tabs: true
+plugins:
+  - RallyMKDocs
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
 
 pages:
   - Home:
