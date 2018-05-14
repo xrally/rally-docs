@@ -10,6 +10,8 @@ theme:
     name: material
     feature:
         tabs: true
+plugins:
+  - RallyMKDocs
 
 markdown_extensions:
   - admonition
